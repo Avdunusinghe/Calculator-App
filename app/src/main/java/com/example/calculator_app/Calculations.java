@@ -1,6 +1,6 @@
 package com.example.calculator_app;
 
-public class Claculations {
+public class Calculations {
 
     protected float convertCelciusToFahrenheit(Float value) {
         Float ans = (value - 32) * 5/9;
@@ -10,4 +10,5 @@ public class Claculations {
         Float ans = (value * 9/5) + 32;
         return ans;
     }
+
 }
